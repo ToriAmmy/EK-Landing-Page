@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+}
+
+.explore {
+    position: absolute;
+    width: 303px;
+    height: 120px;
+    left: 137px;
+    top: 269px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120px;
+    color: #282973;
+}
+
+.welcome {position: absolute;
+    width: 524px;
+    height: 108px;
+    left: 110px;
+    top: 414px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282973;
+}
+
+.start {
+    position: absolute;
+    width: 314px;
+    height: 70px;
+    left: 261px;
+    top: 564px;
+    background: #2457C5;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.Comm {
+    position: absolute;
+    width: 743.17px;
+    height: 666px;
+    left: 666px;
+    top: 189px;
+}
+
+.corner-mob {
+    display: none;
+}
+
+.corner-desk {
+    position: absolute;
+    width: 520px;
+    height: 490px;
+    top: 444px;
+}
+
+@media screen and (max-width: 428px)  {
+.explore {
+    position: absolute;
+    width: 91px;
+    height: 36px;
+    left: 24px;
+    top: 218px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282973;
+}
+
+.welcome {
+    position: absolute;
+    width: 309px;
+    height: 96px;
+    left: 21px;
+    top: 269px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282973;
+}
+
+.start {
+    box-sizing: border-box;
+    position: absolute;
+    width: 186px;
+    height: 50.96px;
+    left: 24px;
+    top: 406.04px;
+    background: #2457C5;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.Comm {
+    position: absolute;
+    left: -32.43%;
+    top: 54%;
+    height: 380px;
+    width: 410.52;
+    bottom: 11.27%;
+    background: #FFFFFF;
+    opacity: 0.9;
+}
+
+.corner-desk {
+    position: absolute;
+    top: 65.4%;
+    width: 200px;
+    height: 315px;
+    bottom: 0px;
+    margin-bottom: 0px;   
+}
+
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 429px) {
+    .explore {
+        position: absolute;
+        width: 303px;
+        height: 120px;
+        left: 130px;
+        top: 236px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 120px;
+        color: #282973;
+    }
+
+    .welcome {
+        position: absolute;
+        width: 524px;
+        height: 108px;
+        left: 118px;
+        top: 381px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .start {
+        position: absolute;
+        width: 314px;
+        height: 70px;
+        left: 118px;
+        top: 571px;
+        background: #2457C5;
+        border: 3px solid #FFFFFF;
+        border-radius: 30px;
+        position: absolute;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+
+    .Comm {
+        position: absolute;
+        left: 34%;
+        width: 500px;
+        height: 500px;
+        top: 60%;
+        bottom: 6.23%;
+    }
+
+    .corner-desk {
+        position: absolute;
+        top: 65%;
+        width: 450px;
+        height: 450px;
+        left: 0px;
+    }
+} 
